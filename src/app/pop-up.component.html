@@ -1,0 +1,14 @@
+<div>
+<button (click)="popUpShow=true">点击弹框</button>
+	<!-- <h1>测试弹框</h1> -->
+	<div class="popup-bg" id="popup" *ngIf="popUpShow">
+		<div class="popup-box popup-allergy" id="popupAllergy">
+			<div class="popup-header">
+				<a href="" class="popup-close" (click)="popUpShow=false" id="closeAllergy">X</a>
+			</div>
+			<div class="popup-body popup-allergy-content">
+				
+			</div>
+		</div>
+	</div>
+</div>

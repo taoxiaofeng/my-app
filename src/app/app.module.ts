@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HeroDetailComponent } from './hero-detail.component';
+import { popUpComponent } from './pop-up.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { HeroDetailComponent } from './hero-detail.component';
   ],
   declarations: [
     AppComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    popUpComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
